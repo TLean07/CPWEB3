@@ -31,7 +31,7 @@ Aplicação web interativa desenvolvida com **HTML5**, **CSS3** e **JavaScript (
 1. Clone ou baixe este repositório.
 2. Coloque os arquivos `index.html`, `style.css` e `script.js` na mesma pasta.
 3. Substitua a chave no `script.js` pela sua chave da GNews API.
-4. Abra o `index.html` no navegador.
+4. Abra o `index.html` no navegador usando o Live Server.
 
 ---
 
