@@ -8,7 +8,8 @@ const frases = [
     { texto: "Bill Gates quer implantar chips", status: "fake" },
     { texto: "O cinto de segurança salva vidas", status: "verdadeiro" },
     { texto: "Cloroquina cura COVID-19", status: "fake" },
-    { texto: "Água potável é essencial para a vida", status: "verdadeiro" }
+    { texto: "Água potável é essencial para a vida", status: "verdadeiro" },
+    { texto: "A Febba gosta do Luigi", status: "fake" }
   ];
    
   document.getElementById("btnVerificar").addEventListener("click", () => {
