@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Fake News ou Fato?</title>
+  <link rel="stylesheet" href="./src/css/style.css"/>
+  <script defer src="./src/js/script.js"></script>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+  <link type="image/png" sizes="96x96" rel="icon" href="https://img.icons8.com/stencil/32/journal.png">
+</head>
+<body>
+  <main class="container">
+    <h1>Fake News ou Fato Verificado?</h1>
+ 
+    <div class="input-group">
+      <input type="text" id="inputFrase" placeholder="Digite uma frase ou notícia"/>
+      <button id="btnVerificar">Verificar</button>
+    </div>
+ 
+    <div id="resultado" class="resultado"></div>
+ 
+    <div class="actions">
+      <button id="btnHistorico">Ver Histórico</button>
+    </div>
+ 
+    <div id="historicoContainer" class="hidden"></div>
+ 
+    <section class="noticias-section">
+      <h2>Notícias Reais Relacionadas</h2>
+      <ul id="noticias"></ul>
+    </section>
+  </main>
+</body>
+</html>

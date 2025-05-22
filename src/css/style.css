@@ -1,0 +1,140 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap');
+ 
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+ 
+body {
+  font-family: 'Inter', sans-serif;
+  background: linear-gradient(145deg, #e3f2fd, #ffffff);
+  color: #333;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+}
+ 
+.container {
+  width: 100%;
+  max-width: 700px;
+  background: white;
+  border-radius: 16px;
+  padding: 2rem;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.1);
+  animation: fadeIn 1s ease;
+}
+ 
+h1 {
+  text-align: center;
+  margin-bottom: 2rem;
+  font-size: 2rem;
+}
+ 
+.input-group {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+ 
+input[type="text"] {
+  flex: 1;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  transition: border-color 0.3s;
+}
+ 
+input:focus {
+  border-color: #00796b;
+  outline: none;
+}
+ 
+button {
+  background-color: #00796b;
+  color: white;
+  border: none;
+  border-radius: 8px;
+  padding: 0.8rem 1.5rem;
+  cursor: pointer;
+  transition: background 0.3s ease;
+}
+ 
+button:hover {
+  background-color: #004d40;
+}
+ 
+.resultado {
+  text-align: center;
+  font-size: 1.2rem;
+  margin-top: 1rem;
+  font-weight: bold;
+  min-height: 2rem;
+}
+ 
+.resultado-fake {
+  color: #c62828;
+  animation: pulse 1s infinite;
+}
+ 
+.resultado-verdadeiro {
+  color: #2e7d32;
+  animation: pulse 1s infinite;
+}
+ 
+.actions {
+  margin-top: 1.5rem;
+  text-align: center;
+}
+ 
+.hidden {
+  display: none;
+}
+ 
+table {
+  width: 100%;
+  margin-top: 1rem;
+  border-collapse: collapse;
+}
+ 
+th, td {
+  padding: 0.6rem;
+  border: 1px solid #ccc;
+  text-align: center;
+  font-size: 0.9rem;
+}
+ 
+.noticias-section {
+  margin-top: 2rem;
+}
+ 
+.noticias-section h2 {
+  font-size: 1.3rem;
+  margin-bottom: 1rem;
+}
+ 
+#noticias li {
+  margin-bottom: 0.5rem;
+}
+ 
+#noticias a {
+  color: #00796b;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+ 
+#noticias a:hover {
+  color: #004d40;
+}
+ 
+@keyframes fadeIn {
+  from { opacity: 0; transform: translateY(-10px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+ 
+@keyframes pulse {
+  0%, 100% { transform: scale(1); }
+  50% { transform: scale(1.05); }
+}
+ 
